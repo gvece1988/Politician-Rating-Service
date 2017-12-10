@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="PoliticianRatingService" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Projects\\TestProject\\Politician-Rating\.Service\\Politician-Rating\.Service\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Projects\\TestProject\\Politician-Rating\.Service\\Politician-Rating\.Service\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="PoliticianRatingService/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Projects\\TestProject\\Politician-Rating\.Service\\Politician-Rating\.Service\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="PoliticianRatingContext-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\PoliticianRating.mdf;Initial Catalog=PoliticianRating;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Projects\\TestProject\\Politician-Rating\.Service\\Politician-Rating\.Service\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PoliticianRatingContext']/@connectionString" />
+  </parameter>
+</parameters>

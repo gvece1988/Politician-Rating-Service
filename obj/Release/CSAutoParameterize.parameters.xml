@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="PoliticianRatingContext-Web.config Connection String" description="PoliticianRatingContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\PoliticianRating.mdf;Initial Catalog=PoliticianRating;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Projects\\TestProject\\Politician-Rating\.Service\\Politician-Rating\.Service\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PoliticianRatingContext']/@connectionString" />
+  </parameter>
+</parameters>
